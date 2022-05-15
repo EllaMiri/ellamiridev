@@ -14,20 +14,26 @@ function Home() {
         <h2 className="name">Ella Larsson</h2>
         <p className="occupation">and I'm a front end developer</p>
         <div className="contact-icons">
-          <span>
-            {" "}
+          <a className="mail" href="mailto:ella.larsson0012@gmail.com">
             <FontAwesomeIcon icon={faEnvelope} />
-          </span>
-          <span>
-            {" "}
+          </a>
+          <a
+            className="linkedin"
+            href="https://se.linkedin.com/in/ella-larsson-827a4318a/en?trk=people-guest_people_search-card"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faLinkedin} />
-          </span>
-          <span>
-            {" "}
+          </a>
+          <a
+            className="github"
+            href="https://github.com/EllaMiri"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <FontAwesomeIcon icon={faGithub} />
-          </span>
+          </a>
           <span>
-            {" "}
             <FontAwesomeIcon icon={faSnapchatSquare} />
           </span>
         </div>
