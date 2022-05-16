@@ -1,5 +1,6 @@
 import "./MyWork.css";
 import chocolatefactory from "../assets/chocolatefactory.png";
+import Footer from "./Footer";
 
 function MyWork() {
   return (
@@ -45,6 +46,7 @@ function MyWork() {
           <img className="chocolatefactory" src={chocolatefactory} alt="" />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
