@@ -10,7 +10,7 @@
 }
 
 .projects-header {
-  margin-bottom: 0;
+  margin-bottom: 0.6rem;
 }
 
 .chocolatefactory {
@@ -18,14 +18,14 @@
   height: 70%;
 }
 
-.chocolate-factory-container {
+.my-work-container {
   display: flex;
   justify-content: flex-end;
   margin-top: 2rem;
   align-items: center;
 }
 
-.chocolate-factory-left {
+.show-left {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -34,10 +34,11 @@
 .project-type {
   font-weight: 400;
   margin-top: 0;
+  margin-bottom: 1rem;
 }
 
 .project-header {
-  margin-bottom: 0;
+  margin-bottom: 0.2rem;
 }
 
 .project-description {
@@ -50,6 +51,7 @@
   border-style: none;
   background-color: #333;
   color: white;
+  margin-top: 1rem;
 }
 .demo-button:hover {
   padding: 1rem;
@@ -62,4 +64,8 @@
 .demo-link {
   text-decoration: none;
   color: white;
+}
+
+.break-p {
+  padding-top: 0.6rem;
 }
