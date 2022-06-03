@@ -3,6 +3,7 @@ import chocolatefactory from "../assets/chocolatefactory.png";
 import spacegame from "../assets/space-game.png";
 import minima from "../assets/minima.png";
 import chatapp from "../assets/chatapp.png";
+import catsanddogs from "../assets/catsanddogs.png";
 import Footer from "./Footer";
 
 function MyWork() {
@@ -105,10 +106,32 @@ function MyWork() {
               A chat application made using Socket.IO and Typescript. You start
               off by entering a nickname, then you can join available chat rooms
               or you can create a new room. When a user is typing the other
-              users in the same room will be notified.
+              users in the same room will be notified. A school project made
+              together with 3 classmates.
             </p>
           </div>
           <img className="chocolatefactory" src={chatapp} alt="" />
+        </div>
+        <div className="my-work-container">
+          <div className="show-left">
+            <h2 className="project-header">Cats and Dogs 🐈 🐕‍🦺</h2>
+            <p className="project-type">Fullstack</p>
+            <p className="project-description">
+              A page for adopting cats and dogs where the user can create a post
+              saying for example they want to adopt an animal or that they've
+              found an animal that needs a new home. To create a post you will
+              have to create an account and then login. You can edit your own
+              post as well as delete it, but not anyone elses. This project is
+              built using React and Bootstrap for the front end and Node,
+              Express.JS and Mongoose for the back end using MongoDB database.
+              MongoDB compass was used for viewing the database. All the created
+              accounts and posts are stored in the database. We focused a lot on
+              security, we have middlewares for authentication and also
+              encrypted the passwords using Bcrypt. We also used
+              coookie-session. A school project made together with 2 classmates.
+            </p>
+          </div>
+          <img className="chocolatefactory" src={catsanddogs} alt="" />
         </div>
       </div>
       <Footer />
