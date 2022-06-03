@@ -2,6 +2,7 @@ import "./MyWork.css";
 import chocolatefactory from "../assets/chocolatefactory.png";
 import spacegame from "../assets/space-game.png";
 import minima from "../assets/minima.png";
+import chatapp from "../assets/chatapp.png";
 import Footer from "./Footer";
 
 function MyWork() {
@@ -95,6 +96,19 @@ function MyWork() {
             </button>
           </div>
           <img className="chocolatefactory" src={minima} alt="" />
+        </div>
+        <div className="my-work-container">
+          <div className="show-left">
+            <h2 className="project-header">ChitChat 💬</h2>
+            <p className="project-type">Sockets</p>
+            <p className="project-description">
+              A chat application made using Socket.IO and Typescript. You start
+              off by entering a nickname, then you can join available chat rooms
+              or you can create a new room. When a user is typing the other
+              users in the same room will be notified.
+            </p>
+          </div>
+          <img className="chocolatefactory" src={chatapp} alt="" />
         </div>
       </div>
       <Footer />
